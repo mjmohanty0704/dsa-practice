@@ -5,7 +5,7 @@ Push the max element to the last by adjacent swaps
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function to perform selection sort on an array
+// Function to perform bubble sort on an array
 void bubble_sort(int arr[], int n)
 {
     for (int i = n - 1; i >= 0; i--)
@@ -43,7 +43,7 @@ int main()
         cin >> arr[i];
     }
 
-    // Perform selection sort on the array
+    // Perform bubble sort on the array
     bubble_sort(arr, n);
 
     // Output the sorted array
