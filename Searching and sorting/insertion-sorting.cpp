@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function to perform bubble sort on an array
+// Function to perform insertion sort on an array
 void insertion_sort(int arr[], int n)
 {
     for (int i = 0; i <= n - 1; i++)
@@ -34,7 +34,7 @@ int main()
         cin >> arr[i];
     }
 
-    // Perform bubble sort on the array
+    // Perform insertion sort on the array
     insertion_sort(arr, n);
 
     // Output the sorted array
